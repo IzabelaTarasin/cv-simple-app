@@ -1,0 +1,8 @@
+.wrapper {
+  display: flex;
+  justify-content: center; /*wysrodkowanie kontentu*/
+  width: 1200px; /* ustawienie szerokosci naszego kontentu cv*/
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
