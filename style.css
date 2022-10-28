@@ -84,6 +84,7 @@ main {
 
 .bold {
   font-weight: 700;
+  color: #fb6d3a;
 }
 
 .contact-links {
@@ -224,4 +225,8 @@ h1 {
 
 .list-course-item {
   padding-bottom: 10px;
+}
+
+.space {
+  padding-top: 40px;
 }
