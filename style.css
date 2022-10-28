@@ -70,12 +70,6 @@ main {
   line-height: 17px;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 55px;
-}
-
 .description {
   font-weight: 400;
   font-size: 14px;
@@ -117,15 +111,25 @@ h1 {
   color: #000000;
   /* bez ponizszych wartosci elementy listy byly wcięte: */
   padding-left: 0;
+  padding-top: 10px;
   list-style-position: inside;
 }
 
 .list-primary-item {
+  padding-bottom: 10px;
+}
+
+.list-primary-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #595959;
   /* linki domyslnie sa podkreslone wiec aby usunac podkreslenie stosowane jest text-dexoration i ustawiamy wartosc na none: */
+  text-decoration: none;
+}
+
+.list-primary-technology {
+  color: #fb6d3a;
   text-decoration: none;
 }
 
@@ -136,20 +140,13 @@ h1 {
   color: #fb6d3a;
 }
 
-.job-date {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
-  color: #a8a8a8;
-}
-
 .company-name {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
 }
 
-.job-block {
+.date-description-block {
   display: flex;
   flex-direction: row; /* zamiana kolejnosci wierszy */
   margin: 0 auto;
@@ -165,11 +162,66 @@ h1 {
   list-style-position: inside;
 }
 
-.job-date-block {
+.date-block {
   min-width: 150px;
   padding-top: 5px;
 }
 
-.job-information-block {
+.date-information {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.description-block {
   padding-top: 5px;
+}
+
+.content {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #fb6d3a;
+}
+
+.project-block {
+  padding-top: 10px;
+}
+
+.experience-block {
+  padding-top: 40px;
+}
+
+.education-block {
+  padding-top: 40px;
+}
+
+.achievements-block {
+  padding-top: 40px;
+}
+
+.courses-block {
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+.list-course {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  padding-left: 0;
+  padding-top: 10px;
+  list-style-position: inside;
+}
+
+.list-course-item {
+  padding-bottom: 10px;
 }
