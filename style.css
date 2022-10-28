@@ -58,8 +58,73 @@ main {
   min-width: 830px;
 }
 
-.test {
+.main-description {
   padding-left: 90px;
   padding-right: 90px;
   padding-top: 50px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contact-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.contact-links {
+  color: #ffffff;
+  /* font-weight: 400; to jest domyślna wartość wiec nie musimy tego zapisywac */
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contact-block {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.header-main-point {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.list-primary {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  /* bez ponizszych wartosci elementy listy byly wcięte: */
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.list-primary-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  /* linki domyslnie sa podkreslone wiec aby usunac podkreslenie stosowane jest text-dexoration i ustawiamy wartosc na none: */
+  text-decoration: none;
 }
