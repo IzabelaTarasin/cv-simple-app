@@ -1,0 +1,227 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #faf5f5;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row; /* zamiana kolejnosci wierszy */
+  width: 1200px; /*ustawienie szerokosci naszego kontentu cv*/
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 1200px; /*ustawienie szerokosci naszego kontentu cv*/
+  margin: 0 auto;
+  background-color: #162c4b;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  color: #faf7f7;
+  min-height: 300px;
+}
+
+/* .cv-photo {
+  height: 350px;
+  width: 370px;
+} */
+
+aside {
+  width: 370px;
+  /* background-color: #162c4b;
+  color: #faf7f7; */
+  border-width: thick;
+  border-left-style: solid;
+  border-left-color: #162c4b;
+  padding-left: 50px;
+  padding-right: 90px;
+  padding-top: 50px;
+}
+
+main {
+  width: 830px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 50px;
+}
+
+.header-information {
+  min-width: 370px;
+  border-width: thick;
+  border-left-style: solid;
+  border-left-color: #ffffff;
+}
+
+.header-description {
+  min-width: 830px;
+}
+
+.main-description {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 50px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contact-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.contact-links {
+  color: #ffffff;
+  /* font-weight: 400; to jest domyślna wartość wiec nie musimy tego zapisywac */
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contact-block {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.header-main-point {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.list-primary {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  /* bez ponizszych wartosci elementy listy byly wcięte: */
+  padding-left: 0;
+  padding-top: 10px;
+  list-style-position: inside;
+}
+
+.list-primary-item {
+  padding-bottom: 10px;
+}
+
+.list-primary-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  /* linki domyslnie sa podkreslone wiec aby usunac podkreslenie stosowane jest text-dexoration i ustawiamy wartosc na none: */
+  text-decoration: none;
+}
+
+.list-primary-technology {
+  color: #fb6d3a;
+  text-decoration: none;
+}
+
+.job-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+
+.company-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.date-description-block {
+  display: flex;
+  flex-direction: row; /* zamiana kolejnosci wierszy */
+  margin: 0 auto;
+  justify-content: start;
+}
+
+.job-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  padding-left: 0;
+  list-style-position: inside;
+}
+
+.date-block {
+  min-width: 150px;
+  padding-top: 5px;
+}
+
+.date-information {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.description-block {
+  padding-top: 5px;
+}
+
+.content {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #fb6d3a;
+}
+
+.project-block {
+  padding-top: 10px;
+}
+
+.experience-block {
+  padding-top: 40px;
+}
+
+.education-block {
+  padding-top: 40px;
+}
+
+.achievements-block {
+  padding-top: 40px;
+}
+
+.courses-block {
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+.list-course {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  padding-left: 0;
+  padding-top: 10px;
+  list-style-position: inside;
+}
+
+.list-course-item {
+  padding-bottom: 10px;
+}
